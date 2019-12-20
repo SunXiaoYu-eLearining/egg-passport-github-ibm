@@ -1,5 +1,5 @@
 {
-  "name": "egg-passport-github",
+  "name": "egg-passport-github-ibm",
   "version": "1.0.0",
   "description": "github passport plugin for egg",
   "eggPlugin": {
@@ -13,11 +13,11 @@
     "eggPlugin",
     "egg-plugin",
     "egg-passport",
-    "passport-github"
+    "passport-github-ibm"
   ],
   "dependencies": {
     "debug": "^2.6.1",
-    "passport-github": "^1.1.0"
+    "passport-github-ibm": "^1.0.0"
   },
   "devDependencies": {
     "autod": "^2.7.1",
@@ -51,12 +51,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-passport-github.git"
+    "url": "git+https://github.com/SunXiaoYu-eLearining/egg-passport-github-ibm"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-passport-github#readme",
-  "author": "fengmk2",
+  "homepage": "https://github.com/SunXiaoYu-eLearining/egg-passport-github-ibm#readme",
+  "author": "Jason Sun",
   "license": "MIT"
 }
