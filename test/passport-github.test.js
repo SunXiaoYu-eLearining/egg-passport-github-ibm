@@ -25,14 +25,14 @@ describe('test/passport-github.test.js', () => {
   it('should GET /passport/github redirect to auth url', () => {
     return request(app.callback())
       .get('/passport/github')
-      .expect('Location', /^https:\/\/github.com\/login\/oauth\/authorize\?response_type=code&redirect_uri=http/)
+      .expect('Location', /^https:\/\/github.ibm.com\/login\/oauth\/authorize\?response_type=code&redirect_uri=http/)
       .expect(302);
   });
 
   it('should GET /passport/github/callback redirect to auth url', () => {
     return request(app.callback())
       .get('/passport/github/callback')
-      .expect('Location', /^https:\/\/github.com\/login\/oauth\/authorize\?response_type=code&redirect_uri=http/)
+      .expect('Location', /^https:\/\/github.ibm.com\/login\/oauth\/authorize\?response_type=code&redirect_uri=http/)
       .expect(302);
   });
 });

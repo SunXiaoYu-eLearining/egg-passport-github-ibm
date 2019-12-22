@@ -1,6 +1,6 @@
 {
   "name": "egg-passport-github-ibm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "github passport plugin for egg",
   "eggPlugin": {
     "name": "passportGithub",

@@ -13,10 +13,10 @@ module.exports = app => {
   config.clientSecret = config.secret;
 
   // must require `req` params
-  app.passport.use('github', new Strategy(config, (req, accessToken, refreshToken, params, profile, done) => {
+  app.passport.use('github.ibm.com', new Strategy(config, (req, accessToken, refreshToken, params, profile, done) => {
     // format user
     const user = {
-      provider: 'github',
+      provider: 'github.ibm.com',
       id: profile.id,
       name: profile.username,
       displayName: profile.displayName,
